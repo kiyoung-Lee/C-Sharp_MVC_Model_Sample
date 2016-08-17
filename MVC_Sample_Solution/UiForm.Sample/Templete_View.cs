@@ -1,13 +1,4 @@
-﻿using DevExpress.XtraGrid;
-using DevExpress.XtraGrid.Views.Grid;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 using TypeLib.Core;
 using TypeLib.Service;
@@ -58,8 +49,6 @@ namespace UiForm.Sample
         #endregion
 
         #region Grid Control
-        GridControl _gridControl;
-        GridView _gridView;
         #endregion
 
         #region Creator
