@@ -1,0 +1,8 @@
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.DbLib\obj\x64\Debug\TypeLib.DbLib.csprojResolveAssemblyReference.cache
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.DbLib\bin\x64\Debug\TypeLib.DbLib.dll
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.DbLib\bin\x64\Debug\TypeLib.DbLib.pdb
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.DbLib\bin\x64\Debug\Oracle.DataAccess.dll
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.DbLib\bin\x64\Debug\TypeLib.Core.dll
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.DbLib\bin\x64\Debug\TypeLib.Core.pdb
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.DbLib\obj\x64\Debug\TypeLib.DbLib.dll
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.DbLib\obj\x64\Debug\TypeLib.DbLib.pdb

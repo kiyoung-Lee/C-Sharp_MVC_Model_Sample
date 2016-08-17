@@ -1,0 +1,7 @@
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.Service\obj\x64\Debug\TypeLib.Service.csprojResolveAssemblyReference.cache
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.Service\bin\x64\Debug\TypeLib.Service.dll
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.Service\bin\x64\Debug\TypeLib.Service.pdb
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.Service\bin\x64\Debug\TypeLib.Core.dll
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.Service\bin\x64\Debug\TypeLib.Core.pdb
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.Service\obj\x64\Debug\TypeLib.Service.dll
+C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Sample_Solution\TypeLib.Service\obj\x64\Debug\TypeLib.Service.pdb

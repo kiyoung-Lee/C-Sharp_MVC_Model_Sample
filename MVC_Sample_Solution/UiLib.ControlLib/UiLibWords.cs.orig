@@ -1,0 +1,215 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Mirero.Wiener.UiLib.ControlLib
+{
+    public static class UiLibWords
+    {
+        #region Comon Word
+        public static string QUESTION = "Question";
+        public static string SIMULATION = "Simulation";
+        public static string ANALYSIS = "Analysis";
+        public static string MAX_CPU_COUNT = "MAX_CPU_COUNT";
+        public static string STANDARD_INFO = "StandardInfo";
+        public static string SOLUTION_INFO = "SolutionInfo";
+        public static string OFFLINE = "Offline";
+        public static string INLINE = "Inline";
+        public static string MODEL = "Model";
+        public static string SOLUTIONS = "Solutions";
+        public static string REVISIONS = "Revisions";        
+        public static string REPORTS = "Reports";
+        public static string DELETE = "Delete";
+        #endregion
+
+        #region DB
+        public static string DB_CONNECTSTRING = "ConnectString";
+        #endregion
+
+        #region File
+        public static string FILE_WORKPATH = "WorkPath";
+        public static string FILE_CONFIG = "AppConfigurationData.xml";
+        #endregion
+
+        #region Server Proxy
+        public static string PROXY_CHECKTIME = "Proxy_CheckTime";
+        public static string PROXY_NAME = "WLM#1";
+        public static string PROXY_ADDRESS = "203.239.173.198";
+        #endregion
+        
+        #region View Code
+        public static string VCODE_MAINFRAME_MAIN = "MainFrame::Main";
+        public static string VCODE_MAIN_SUBVIEW = "MainSubView";
+        public static string VCODE_RECIPE_MAIN = "ControllerSolutionInfo::Main";
+        public static string VCODE_RECIPE_FITPARAM = "GridViewParametersFit";
+        public static string VCODE_CONFIG_NEURAL = "GridItemConfigNeuralNetwork";
+        public static string VCODE_CONFIG_NODE = "GridItemConfigNode";
+        public static string VCODE_CONFIG_AUTO = "GridItemConfigAuto";
+        public static string VCODE_CONFIG_OPTIMIZE = "GridItemConfigOptimization";
+        public static string VCODE_CONFIG_SIMULATION = "GridItemConfigSimulation";
+        public static string VCODE_GENERATE_RESULT_X = "GenerateResultX";
+        public static string VCODE_GENERATE_RESULT_Y = "GenerateResultY";
+        public static string VCODE_TRAIN_RESULT_X = "TrainResultX";
+        public static string VCODE_TRAIN_RESULT_Y = "TrainResultY";
+        public static string VCODE_TRAIN_VALIDATE_X = "ValidateResultX";
+        public static string VCODE_TRAIN_VALIDATE_Y = "ValidateResultY";
+        #endregion
+
+        #region Controller
+        public static string CONTROL_MODEL = "ControllerModel";
+        public static string CONTROL_STRUCTRUE = "ControllerStructure";
+        #endregion
+
+        #region Model_Measurement
+        public static string MEASUREMENT_EQUIPMENT = "Equipment";        
+        #endregion
+
+        #region Analysis
+        public static string FIT_ESTIMATION = "estimation";
+        public static string FIT_DATA = "data";
+        public static string FIT_NX = "nx";
+        public static string FIT_NSAMPLE = "nsample";
+        public static string FIT_VALUE_AND_ERROR = "value_and_error";
+        public static string FIT_FITTED_VALUE_AND_ERROR = "fitted_value_and_error";
+        public static string FIT_JACOBIAN = "jacobian";
+        public static string FIT_CORRELATION = "correlation";
+        #endregion
+
+        #region Message
+        public static string COND_SAMPLE_MSG = "기존 데이터를 모두 삭제하고 새로 만드시겠습니까?";
+        public static string START = "##start##";
+        public static string MATERIAL_MANAGER = "Material Manager";
+        public static string STANDARD_INFO_MANAGER = "Standard Information Manager";
+        public static string MODELING_MANAGER = "Modeling Manager";
+        public static string IMAGING_MANAGER = "Imaging Manager";
+        public static string WORKLOAD_MANAGER = "Workload Manager";
+        public static string STANDARD_INFO_MANAGER_LOAD = "Standard Information Manager Load";
+        public static string MAINFRAME_FORM_LOAD_START = "MainFrame Form Load Start";
+        public static string MODEL_FORM_LOAD = "Model Form Load";
+        public static string SIMULATION_FORM_LOAD = "Simulation Form Load";
+        public static string ANALYSIS_FORM_LOAD = "Analysis Form Load";
+        public static string NOT_CHOICE = "Selected Item is Not Exsist.";
+        public static string DEL_ITEM = "선택된 항목을 삭제하시겠습니까?";
+        public static string ADD_CONDITION = "Please Add Condition first!";
+        public static string USED_MATERIAL = "사용중인 Material은 삭제할수 없습니다.";
+        public static string SPECTURM_CONTAIN = "Condition have not Specturm File...";
+        public static string FIT_EXCUTE_ERROR = "Fit Execute Error";
+        #endregion
+
+        #region Chart
+        public static string AXIS_WAVELENGTH = "Wavelength";
+        public static string AXIS_NK = "N/K";
+        public static string AXIS_REAL_IMAGE = "Real/Imaginary";
+        public static string AXIS_ALPHA = "Alpha";
+        public static string AXIS_BETA = "Beta";
+        public static string AXIS_PSI = "Psi";
+        public static string AXIS_DELTA = "Delta";
+        public static string AXIS_TAN = "Tan(Psi)";
+        public static string AXIS_COS = "Cos(Delta)";
+        public static string AXIS_N = "N";
+        public static string AXIS_C = "C";
+        public static string AXIS_S = "S";
+        public static string AXIS_X = "X";
+        public static string AXIS_Y = "Y";
+        public static string AXIS_ITER = "Iteration";
+        public static string AXIS_QUALITY = "Quality";
+        public static string AXIS_VALUE = "Value";        
+
+        public static string SERIES_N = "N";
+        public static string SERIES_K = "K";
+        public static string SERIES_REAL = "Real";
+        public static string SERIES_IMAGE = "Imaginary";
+        public static string SERIES_TAN = "Tan";
+        public static string SERIES_COS = "Cos";
+        public static string SERIES_ALPHA_ORIGIN = "AlphaOrigin";
+        public static string SERIES_BETA_ORIGIN = "BetaOrigin";
+        public static string SERIES_PSI_ORIGIN = "PsiOrigin";
+        public static string SERIES_DELTA_ORIGIN = "DeltaOrigin";
+        public static string SERIES_TAN_ORIGIN = "TanOrigin";
+        public static string SERIES_COS_ORIGIN = "CosOrigin";
+        public static string SERIES_N_ORIGIN = "NOrigin";
+        public static string SERIES_C_ORIGIN = "COrigin";
+        public static string SERIES_S_ORIGIN = "SOrigin";
+        public static string SERIES_X_ORIGIN = "XOrigin";
+        public static string SERIES_Y_ORIGIN = "YOrigin";
+        public static string SERIES_CHISQ = "chisq";
+        public static string SERIES_CHISQ_DOF = "chisq_dof";
+        public static string SERIES_PVALUE = "pvalue";
+        public static string SERIES_RHO = "rho";
+        public static string SERIES_MU = "mu";
+        public static string SERIES_NU = "nu";
+        public static string COND = "COND :";
+        public static string MEASURED = "Measured";
+        public static string SAMPLING = "Sampling";
+        public static string SIMULATED = "Simulated";
+        #endregion
+
+        #region Dictionary Key
+        public static string KEY_ALPHA = "alpha";
+        public static string KEY_BETA = "beta";
+        public static string KEY_PSI = "Psi";
+        public static string KEY_DELTA = "Delta";
+        public static string KEY_TAN = "Tan";
+        public static string KEY_COS = "Cos";
+        public static string KEY_N = "N";
+        public static string KEY_C = "C";
+        public static string KEY_S = "S";
+        public static string KEY_X = "X";
+        public static string KEY_Y = "Y";
+
+        #region App Config
+        public static string KEY_MAT_RANGE = "Material_Information_Range";        
+        public static string KEY_SPEC_MUL = "Spectrum_Error_Multiply";
+        public static string KEY_MAX_CPU = "MAX_CPU_COUNT";
+        public static string KEY_PROXY_CHECK = "Proxy_CheckTime";
+        public static string KEY_WORKPATH = "WorkPath";
+        public static string KEY_DBCONNECT = "ConnectString";
+        public static string KEY_RESULTPATH = "DataResultPath";
+        
+        public static string VALUE_MAT_RANGE = "180, 900, 10";
+        public static string VALUE_SPEC_MUL = "10";
+        public static string VALUE_MAX_CPU = "8";
+        public static string VALUE_PROXY_CHECK = "2000";
+        public static string VALUE_DBCONNECT = @"Data Source=MAZART;Initial Catalog=OcdDev;Persist Security Info=True;User ID=ocduser;Password=ocduser;Pooling=False";
+        public static string VALUE_RESULTPATH = @"/home/work/Data/Result/";
+        
+        #endregion
+
+        #endregion
+
+        #region SplashForm Msg
+        public static string MSG_EVALUATE = "Evaluate Execute..";
+        public static string MSG_GENERATE = "Generate Execute..";
+        public static string MSG_TRAIN = "Train Execute..";
+        public static string MSG_FIT = "Fit Execute..";
+        public static string MSG_VALIDATE = "Validate Execute..";
+        public static string MSG_WAIT = "Please Wait.";
+        public static string MSG_LOADING = "Loading...";
+        public static string MSG_STOP = "Currnet Job Stop Complete. if you have next job, next job is keep running";
+        public static string MSG_REFRESH = "There are changes that are not saved in the current revision. Do you want save them before leaving?";
+<<<<<<< HEAD
+        public static string MSG_FAIL_SPECREAD = "Spectrum File Read Fail.. Check Spectrum Type & Measurement Type!";
+=======
+        public static string MSG_FAIL_SPECREAD = "Spectrum Read Fail.. Check Spctrum Type & Measurement Type!";
+>>>>>>> DB_Offline
+        #endregion        
+
+        #region Property Grid Option
+
+        public static string PROP_ROW_USEAUTO = "rowuse_Auto";
+        public static string PROP_AUTOGRID = "auto_grid";
+        public static string PROP_BROWSABLE = "browsable";
+        public static string PROP_ROW_USEAUTOSLICE = "rowuse_AutoSlice";
+        public static string PROP_AUTOSLICE = "auto_slice";
+        public static string PROP_ROWTYPE = "rowType";
+        public static string PROP_HF = "HF";
+        public static string PROP_ILM = "ILM";
+        public static string PROP_LM = "LM";
+        public static string PROP_TOL_CG = "tol_cg";
+        public static string PROP_MAX_CG_ITER = "max_cg_iteration";
+        
+        #endregion
+    }
+}
