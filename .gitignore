@@ -16,6 +16,7 @@ gen/
 target/
 packages/
 obj/
+Oracle.DataAccess/
 
 
 # Local configuration files (sdk path, etc)
