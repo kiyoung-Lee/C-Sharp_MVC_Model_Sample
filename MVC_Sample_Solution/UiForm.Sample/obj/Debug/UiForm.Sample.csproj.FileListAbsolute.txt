@@ -1,1 +1,0 @@
-C:\Private\Git\C-Sharp_MVC_Model_Sample\MVC_Patten_Sample\UiForm.Sample\bin\Debug\UiForm.Sample.exe.config
