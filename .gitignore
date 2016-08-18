@@ -7,3 +7,4 @@ target/
 packages/
 obj/
 Oracle.DataAccess/
+.vs/
